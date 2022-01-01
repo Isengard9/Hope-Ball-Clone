@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 ///
 [RequireComponent(typeof(Camera))]
-public class CameraSetiings : MonoBehaviour
+public class CamSettings : MonoBehaviour
 {
     private Camera mainCamera;
 
