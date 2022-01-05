@@ -964,8 +964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4bd89f6542d44f98801415744300bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialVelocity: {x: 0, y: 0, z: 0}
-  minVelocity: 5
+  minForce: 5
 --- !u!96 &733520711
 TrailRenderer:
   serializedVersion: 2

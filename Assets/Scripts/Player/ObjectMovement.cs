@@ -39,6 +39,7 @@ public class ObjectMovement : MonoBehaviour
         set { CurrentMovementSpeed = value; }
     }
 
+    
 
     private void Start()
     {
@@ -48,6 +49,8 @@ public class ObjectMovement : MonoBehaviour
     void Update()
     {
         MovePosition.y = Mathf.Clamp(MovePosition.y, PositionyClamp.x, PositionyClamp.y);
+
+
         
         this.transform.localPosition = Vector3.Lerp(this.transform.localPosition, MovePosition, Time.deltaTime * MoveSpeed);
   
